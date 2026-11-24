@@ -1,0 +1,16 @@
+public class recuresion{
+    public static void f(int n){
+        if(n==0)return ;
+        if(n%2==0){
+            System.out.println(n+"  ");
+            f(n-1);
+            if(n%2!=0)
+                System.out.println(n+"  ");
+
+        }
+        public static void main(String[]args){
+            f(10);
+        }
+
+    }
+}
